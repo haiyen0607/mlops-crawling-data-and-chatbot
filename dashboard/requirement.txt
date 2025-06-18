@@ -1,0 +1,16 @@
+requests
+tqdm
+matplotlib
+python-slugify
+beautifulsoup4
+lxml
+streamlit
+fastapi
+uvicorn[standard]
+pandas
+altair
+aiofiles
+aiohttp
+watchdog
+opencv-python
+streamlit-js-eval
