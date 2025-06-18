@@ -1,4 +1,3 @@
-# MLOps for Crawling data and Chatbot
 # 🧠 Big Data News Analysis Platform
 
 **Big Data News Analysis Platform** là một hệ thống tổng hợp bao gồm nhiều module hoạt động phối hợp để **crawl tin tức**, **phân tích xu hướng**, **xây dựng chatbot** và **hiển thị dashboard tương tác** từ các nguồn báo điện tử lớn như **Dân Trí** và **VNExpress**. Hệ thống được triển khai theo dạng pipeline tự động, hỗ trợ cập nhật liên tục và realtime.
@@ -80,6 +79,8 @@ graph TD
     C --> D["Analyze Trends (top_phrases - hot_topics)"]
     D --> E[Build Index for Chatbot]
     E --> F[Notify Dashboard via WebSocket]
+```
+
 
 ---
 
@@ -100,7 +101,7 @@ pip install -r requirements.txt
 
 ## 📌 Tác giả & Đóng góp
 
-- 👨‍💻 **Nguyễn Đông Mạnh, Lê Hải Yến**
+- 👨‍💻 **Nhóm nghiên cứu Phân tích Dữ liệu Lớn**
 - 🏫 Trường Đại học Phenikaa
 - 📬 Mọi góp ý: [GitHub Issues](https://github.com/)
 
