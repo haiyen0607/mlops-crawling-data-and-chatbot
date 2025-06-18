@@ -101,7 +101,7 @@ pip install -r requirements.txt
 
 ## 📌 Tác giả & Đóng góp
 
-- 👨‍💻 **Nhóm nghiên cứu Phân tích Dữ liệu Lớn**
+- 👨‍💻 **Nguyễn Đông Mạnh, Lê Hải Yến*
 - 🏫 Trường Đại học Phenikaa
 - 📬 Mọi góp ý: [GitHub Issues](https://github.com/)
 
