@@ -72,14 +72,14 @@
 ## 🔄 Pipeline realtime với Jenkins
 
 Flow hoạt động mỗi 4 tiếng:
+
 ```mermaid
 graph TD
     A[Jenkins Scheduler] --> B[Crawl Dantri + VNExpress]
     B --> C[Update CSV]
-    C --> D[Analyze Trends (top_phrases, hot_topics)]
+    C --> D["Analyze Trends (top_phrases - hot_topics)"]
     D --> E[Build Index for Chatbot]
     E --> F[Notify Dashboard via WebSocket]
-```
 
 ---
 
